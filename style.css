@@ -1,35 +1,41 @@
-.rectangle{
+.rectangle {
     margin: auto;
     border: 2px solid black;
     padding-top: 150px;
     width: 540px;
-    max-width: 100%
-} 
-.face{  
+    max-width: 100%;
+}
+
+.face {
     max-width: 100%;
     z-index: 0;
 }
-.body{
+
+.body {
     position: relative;
 }
-.button_left{
+
+.button_left {
     display: inline;
     float: left;
     left: 0px;
-    flex-basis: 30%
+    flex-basis: 30%;
 }
-.button_right{
+
+.button_right {
     display: inline;
     float: right;
     right: 0px;
-    flex-basis: 30%
+    flex-basis: 30%;
 }
-.text{
+
+.text {
     display: inline;
     text-align: center;
-    flex-basis: 30%
+    flex-basis: 30%;
 }
-.buttons{
+
+.buttons {
     width: 370px;
     position: absolute;
     display: inline-block;
@@ -38,53 +44,63 @@
     display: flex;
     flex-direction: row;
 }
-.eyebrows.buttons{
-    top: 250px;
-    left: 150px; 
-}
-.hair.buttons{
-    top: 100px;
-    left: 150px; 
 
+.eyebrows.buttons {
+    top: 250px;
+    left: 150px;
 }
-.eye.buttons{
+
+.hair.buttons {
+    top: 100px;
+    left: 150px;
+}
+
+.eye.buttons {
     top: 400px;
-    left: 150px; 
+    left: 150px;
 }
-.nose.buttons{
+
+.nose.buttons {
     top: 175px;
-    left: 1150px; 
+    left: 1150px;
 }
-.mouth.buttons{
+
+.mouth.buttons {
     top: 325px;
-    left: 1150px; 
+    left: 1150px;
 }
-.hair{
+
+.hair {
     top: 120px;
-    left: 595px; 
+    left: 595px;
     z-index: 2;
 }
-.eye{
+
+.eye {
     top: 350px;
-    left: 730px; 
+    left: 730px;
     z-index: 1;
 }
-.eyebrows{
+
+.eyebrows {
     top: 325px;
-    left: 700px; 
+    left: 700px;
     z-index: 1;
 }
-.nose{
+
+.nose {
     top: 395px;
-    left: 800px; 
+    left: 800px;
     z-index: 1;
 }
-.mouth{
+
+.mouth {
     top: 650px;
-    left: 750px; 
+    left: 750px;
     z-index: 1;
 }
-.image{
+
+.image {
     position: absolute;
     display: inline-block;
     align-items: center;
@@ -92,6 +108,7 @@
     display: flex;
     flex-direction: row;
 }
-.immg:hover{
+
+.immg:hover {
     opacity: 50%;
 }
